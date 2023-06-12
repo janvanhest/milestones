@@ -9,6 +9,10 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"recca0120.vscode-phpunit",
+				"GitHub.copilot",
+				"vscodeicons.team",
+				"xdebug.php-debug",
 				"open-southeners.laravel-pint",
 				"mikestead.dotenv",
 				"amiralizadeh9480.laravel-extra-intellisense",
@@ -17,7 +21,9 @@
 				"onecentlin.laravel-blade",
 				"ms-azuretools.vscode-docker"
 			],
-			"settings": {}
+			"settings": {
+
+			}
 		}
 	},
 	"remoteUser": "sail",
