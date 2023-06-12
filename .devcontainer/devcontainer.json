@@ -9,6 +9,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"open-southeners.laravel-pint",
 				"mikestead.dotenv",
 				"amiralizadeh9480.laravel-extra-intellisense",
 				"ryannaddy.laravel-artisan",
