@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class MilestoneType extends Model
 {
     use HasFactory;
+    protected $fillable = ['name', 'description' ];
+
+    public function milestones()
+    {
+        return $this->hasMany(Milestone::class);
+    }
 }
