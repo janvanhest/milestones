@@ -20,3 +20,6 @@ Route::get('/', function () {
         "mysql_version" => DB::select("select version()")[0]->{'version()'}
     ]);
 });
+Route::get('/test', function () {
+    return response()->header('Content-Type', 'text/plain')->setContent('Hello World');
+});
